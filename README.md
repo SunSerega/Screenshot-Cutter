@@ -1,7 +1,7 @@
 
 
 
-Select screen part with LMB
+Select screen part with LMB (click and drag)
 
 Cancel selection by pressing Esc or other mouse button (like RMB)
 

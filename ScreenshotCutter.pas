@@ -21,6 +21,7 @@ begin
   MainForm.WindowState := FormWindowState.Minimized;
   MainForm.BackColor := Color.FromArgb(128,128,128);
   MainForm.Opacity := 1/255;
+  MainForm.Shown += (o,e)->System.Console.Beep();
   MainForm.Closing += (o,e)->Halt();
   MainForm.LostFocus += (o,e)->Halt();
   
